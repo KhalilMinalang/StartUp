@@ -1,3 +1,3 @@
 # StartUp
 
-https://khalilminalang.github.io/StartUp/.
+https://khalilminalang.github.io/StartUp/
