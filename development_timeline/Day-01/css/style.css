@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'bilbo';
+    src: url('Bilbo-Regular.otf');
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url('Lato-LightItalic.ttf');
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font: 13px/ arial;
+    color: #484848;
+    font-style: italic;
+    background: #fff;
+}

@@ -1,0 +1,159 @@
+/******************** Adding fonts ***************************/
+
+@font-face {
+    font-family: 'bilbo';
+    src: url('Bilbo-Regular.otf');
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url('Lato-LightItalic.ttf');
+}
+
+/******************** style for body and main ***************************/
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font: 13px/ arial;
+    color: #484848;
+    font-style: italic;
+    background: #fff;
+}
+
+/******************** header ***************************/
+
+header {
+    width: 100%;
+    background: url(../images/header-bg.jpg) 0 0 repeat;
+    border-bottom: 1px solid #FFF;
+}
+
+h1 {
+    display: inline-block;
+    z-index: 2;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    margin-top: 16px;
+    position: relative;
+    float: left;
+}
+
+nav {
+    display: inline-block;
+    z-index: 2;
+    position: relative;
+    float: right;
+    margin-right: 300px;
+    margin-bottom: 20px;
+}
+
+ul.menu {
+    margin: 28px 0 0 0;
+    display: inline-block;
+}
+
+ul.menu li {
+    float: left;
+    line-height: 30px;
+    margin: 0 0 0 48px; /* Creates spaces between list items. */
+}
+
+ul.menu li a {
+    font-size: 25px;
+    line-height: 30px;
+    color: #f2f2f2;
+    display: inline-block;
+    font-family: 'bilbo';
+}
+
+ul.menu li a:hover, ul.menu li.current a {
+    color: #ff9000;
+}
+
+
+/******************** slider ***************************/
+
+.slide {
+    width: 100%;
+    height: 496px;
+    overflow: hidden;
+    z-index: 1;
+    margin: 0px auto; /* This will move the slide to the center of the page. */
+    position: relative;
+    background: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.slider {
+    width: 1080px; /* width of the actual background image */
+    height: 496px; /* height of the actual background image */
+    overflow: hidden;
+    position: relative;
+    margin: 0px auto; /* This will move the slide to the center of the page. */
+}
+
+.banner {
+    position: absolute;
+    z-index: 0;
+    top: 97px;
+    left: 723px;
+    width: 320px;
+}
+
+.banner .text-1 {
+    display: block;
+    margin-left: 88px;
+    margin-bottom: 25px;
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+.clear {
+    clear: both;
+    width: 100%;
+    
+}
+
+p {margin: 0; padding: 0;}
+a { text-decoration: none; vertical-align: top; } /* With the "vertical-align" in the x and y axis, all anchortags are aligned to the top position. */
+a:hover { text-decoration: none; }
+
+.text-1 {
+    font-weight: normal;
+    color: #000;
+    font-size: 60px;
+    line-height: 72px;
+    font-family: bilbo;
+}
+
+.text-1 strong {
+    font-weight: normal;
+    margin-top: -32px;
+    display: block;
+}
+
+.text-2 {
+    font-family: lato;
+    font-weight: 300px;
+    font-style: italic;
+    color: #484848;
+    font-size: 21px;
+    line-height: 35px;
+    
+}
